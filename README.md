@@ -75,7 +75,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 
 ---
 
-## 🚀 2. Colab 시작 방법
+## 🚀Colab 기초
 
 1. Google 계정으로 로그인
 2. [https://colab.research.google.com](https://colab.research.google.com) 접속
