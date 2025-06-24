@@ -1,5 +1,4 @@
-# 자율주행을 위한 AI코딩
-*나만의 Mark_down만들기*
+# 📘 AI 학습 정리
 ## 1. About GitHub, Markdown, Colab
 - [GitHub 사용법](#github-사용법)
 - [Markdown 문법](#markdown-문법)  
