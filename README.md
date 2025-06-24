@@ -125,6 +125,8 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 
 ## 2. About Python3
 - [Python basic](https://www.w3schools.com/python/default.asp)
+- [Uploading 6_23_colab_test1.ipynb…]
+
 
 ## 3.  data structure / data sciencs
 
