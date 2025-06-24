@@ -41,24 +41,9 @@
 ![create_repository](https://github.com/user-attachments/assets/8c2eb16b-8dfc-465a-88cd-d35770d12df0)
 
 ### Markdown 문법
-1. 제목 (Headings)
-# 제목1 (h1)
-## 제목2 (h2)
-### 제목3 (h3)
-
-2. **강조 (Emphasis)**
-*기울임* 또는 _기울임_  
-**굵게** 또는 __굵게__  
-~~취소선~~
-
-3. **목록 (Lists)**
-(순서 없는 목록)
-- 항목1
-* 항목2
-+ 항목3
-(순서 있는 목록)
-1. 첫 번째
-2. 두 번째
-3. 세 번째
-
-
+1.제목(Heading)
+```
+# 제목1
+## 제목2
+### 제목3
+```
