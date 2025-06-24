@@ -75,7 +75,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 
 ---
 
-## 🧪Colab이란?
+## Colab 기초
 
 **Google Colab(코랩)**은 별도의 설치 없이 웹 브라우저에서 파이썬 코드를 실행할 수 있는 **무료 Jupyter Notebook 환경**입니다.
 
