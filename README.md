@@ -126,6 +126,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 ## 2. About Python3
 - [python](https://github.com/SSAC-AI/AI/blob/main/python3.md)
 - [코랩테스트](https://github.com/SSAC-AI/AI/blob/main/6_23_colab_test1.ipynb)
+- [def함수](https://github.com/SSAC-AI/AI/blob/main/0625_def.ipynb)
 
 
 ## 3.  data structure / data sciencs
