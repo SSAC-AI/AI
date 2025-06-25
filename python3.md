@@ -31,13 +31,18 @@
 # 인덱스 범위 주의
 my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
-print(my_list[2])  # 올바름 (마지막 요소)
+
+print(my_list[2])  # 올바름 (마지막 요소
+
 print(my_list[-1]) # 올바름 (뒤에서 첫 번째)
 
 # 리스트 복사 주의
 list1 = [1, 2, 3]
+
 list2 = list1        # 참조 복사 (같은 메모리)
+
 list2.append(4)
+
 print(list1)         # [1, 2, 3, 4] - 원본도 변경됨!
 
 #올바른 복사 방법
@@ -51,14 +56,20 @@ while True:
 
 #안전한 코드
 count = 0
+
 while count < 10:
+
     print(f"카운트: {count}")
+    
     count += 1  # 카운터 증가 잊지 말기!
 
 # 조건문에서 할당 연산자 실수
 x = 5
+
 if x = 10:  # 에러! 할당 연산자 사용
+
     print("x는 10")
 
 if x == 10:  # 올바름! 비교 연산자 사용
+
     print("x는 10")
