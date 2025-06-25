@@ -25,7 +25,7 @@
 
 
 # 문자열 처리 주의사항
-# 따옴표 주의
+#따옴표 주의
 
 ![스크린샷 2025-06-25 091907](https://github.com/user-attachments/assets/75761d75-ff9e-47d0-861a-3c7caeefb958)
 
