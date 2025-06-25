@@ -124,7 +124,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 ---
 
 ## 2. About Python3
-- [python3.md](https://github.com/user-attachments/files/20894323/python3.md)
+- 
 - [코랩테스트](https://github.com/SSAC-AI/AI/blob/main/6_23_colab_test1.ipynb)
 
 
