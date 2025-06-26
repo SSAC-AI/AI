@@ -129,6 +129,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 - [클래스](https://github.com/SSAC-AI/AI/blob/main/0625_class.ipynb)
 - [def](https://github.com/SSAC-AI/AI/blob/main/0625_def.ipynb)
 - [for문](https://github.com/SSAC-AI/AI/blob/main/0625_for%EB%AC%B8.ipynb)
+- [while문](https://github.com/SSAC-AI/AI/blob/main/0625_while.ipynb)
 - [리스트](https://github.com/SSAC-AI/AI/blob/main/0626_list.ipynb)
 
 
