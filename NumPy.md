@@ -91,3 +91,6 @@ np.dot(a, b)        # 행렬 곱
 
 NumPy는 데이터 분석, 머신러닝, 과학 계산 등 다양한 분야에서 핵심적인 역할을 합니다.
 **pandas, scikit-learn, TensorFlow** 등 여러 라이브러리들도 NumPy를 기반으로 동작합니다.
+# 🔗 참고자료
+- [w3schools] (https://www.w3schools.com/)
+- chatGPT
