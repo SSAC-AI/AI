@@ -27,6 +27,9 @@ pip install matplotlib
 ```
 
 ## 3. 기본 차트 사용법
+
+Matplotlib을 사용하려면 `matplotlib.pyplot` 모듈을 불러와야 합니다.  
+아래 예제는 기본 선 그래프를 그리는 방법입니다.
 ```
 import matplotlib.pyplot as plt
 
