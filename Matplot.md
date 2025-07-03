@@ -46,7 +46,7 @@ plt.show()
 ## 4. 그래프 종류
 그래프의 종류는 매우 다양합니다.
 아래는 막대그래프, 히스토그램, 산점도, 파이차트에 대한 예제 입니다.
-### 막대그래프
+### 막대그래프(Bar Chart)
 ```
 x = np.array(["A", "B", "C", "D"])
 y = np.array([3, 8, 1, 10])
@@ -54,14 +54,14 @@ y = np.array([3, 8, 1, 10])
 plt.bar(x,y)
 plt.show()
 ```
-### 히스토그램
+### 히스토그램(Histogram)
 ```
 x = np.random.normal(170, 10, 250)
 
 plt.hist(x) # 히스토그램 생성
 plt.show()
 ```
-### 산점도
+### 산점도(Scatter Plot)
 ```
 x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])
 y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])
@@ -69,10 +69,45 @@ y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])
 plt.scatter(x, y)
 plt.show()
 ```
-### 파이차트
+### 파이차트(Pie Chart)
 ```
 y = np.array([35, 25, 25, 15])
 
 plt.pie(y) # 원형 차트 생성
+plt.show()
+```
+
+## 5. 그래프 커스터 마이징
+그래프의 선 색깔, 스타일, 마커, 범례 등을 지정할 수 있습니다.
+```
+x = [1, 2, 3, 4]
+y = [10, 20, 15, 25]
+
+plt.plot(x, y, color='green', linestyle='--', marker='s', label='데이터1')  # 스타일 지정
+plt.title("커스터마이징 예제")
+plt.xlabel("X축")
+plt.ylabel("Y축")
+plt.legend()           # 범례 표시
+plt.grid(True)         # 그리드 추가
+plt.show()
+```
+
+### 6. 다중 플롯(subplot)
+하나의 창에 여러 그래프를 배치할 수 있습니다.
+```
+#plot 1:
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+
+plt.subplot(1, 2, 1)
+plt.plot(x,y)
+
+#plot 2:
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+
+plt.subplot(1, 2, 2)
+plt.plot(x,y)
+
 plt.show()
 ```
