@@ -51,6 +51,8 @@ y = np.array([3, 8, 1, 10])
 plt.bar(x,y)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/6300d8d7-0697-4ce7-a926-fe5a6ea28424)
+
 ### 히스토그램(Histogram)
 ```
 x = np.random.normal(170, 10, 250)
