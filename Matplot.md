@@ -96,7 +96,7 @@ plt.grid(True)         # 그리드 추가
 plt.show()
 ```
 
-### 6. 다중 플롯(subplot)
+## 6. 다중 플롯(subplot)
 하나의 창에 여러 그래프를 배치할 수 있습니다.
 ```
 #plot 1:
