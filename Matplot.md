@@ -7,9 +7,8 @@
 4. [그래프 종류](#4-그래프-종류)
 5. [그래프 커스터마이징](#5-그래프-커스터마이징)
 6. [다중 플롯(subplot)](#6-다중-플롯subplot)
-7. [한글 폰트 설정](#7-한글-폰트-설정)
-8. [실습 예제](#8-실습-예제)
-9. [마무리 및 참고자료](#9-마무리-및-참고자료)
+7. [플롯 레이블 글꼴 설정](#7-플롯 레이블 글꼴-설정)
+8. [마무리 및 참고자료](#9-마무리-및-참고자료)
 
 ---
 
@@ -111,3 +110,26 @@ plt.plot(x,y)
 
 plt.show()
 ```
+
+## 7. 플롯 레이블 글꼴 설정
+그래프의 레이블 글꼴을 지정할 수 있습니다.
+```
+x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
+y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
+
+font1 = {'family':'serif','color':'blue','size':20}
+font2 = {'family':'serif','color':'darkred','size':15}
+
+plt.title("Sports Watch Data", fontdict = font1)
+plt.xlabel("Average Pulse", fontdict = font2)
+plt.ylabel("Calorie Burnage", fontdict = font2)
+
+plt.plot(x, y)
+plt.show()
+```
+## 8. 마무리 및 참고자료
+Matplotlib은 매우 강력한 시각화 라이브러리로, 다양한 그래프와 커스터마이징 기능을 제공합니다.
+처음엔 기본 예제를 따라해보고, 점차 여러 기능을 익혀나가면 데이터 분석에 큰 도움이 됩니다.
+### 참고자료
+-W3schools
+-ChatGPT
