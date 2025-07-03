@@ -83,18 +83,32 @@ plt.show()
 
 ## 5. 그래프 커스터 마이징
 그래프의 선 색깔, 스타일, 마커, 범례 등을 지정할 수 있습니다.
+### 선 색깔 바꾸기 예제
 ```
-x = [1, 2, 3, 4]
-y = [10, 20, 15, 25]
+ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(x, y, color='green', linestyle='--', marker='s', label='데이터1')  # 스타일 지정
-plt.title("커스터마이징 예제")
-plt.xlabel("X축")
-plt.ylabel("Y축")
-plt.legend()           # 범례 표시
-plt.grid(True)         # 그리드 추가
+plt.plot(ypoints, color = 'r')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/d642a83d-7ee6-4097-a89e-848060b6a672)
+### 마커
+```
+ypoints = np.array([3, 8, 1, 10])
+
+plt.plot(ypoints, marker = 'o')
+plt.show()
+```
+![image](https://github.com/user-attachments/assets/f8cec8ca-b3fa-4cb4-b4e3-c970beacabc0)
+### 범례
+```
+y = np.array([35, 25, 25, 15])
+mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
+
+plt.pie(y, labels = mylabels)
+plt.legend() # 범례추가
+plt.show()
+```
+![image](https://github.com/user-attachments/assets/b778bbf7-1432-49e6-92df-106f867452bb)
 
 ## 6. 다중 플롯(subplot)
 하나의 창에 여러 그래프를 배치할 수 있습니다.
@@ -133,6 +147,8 @@ plt.ylabel("Calorie Burnage", fontdict = font2)
 plt.plot(x, y)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/cfbd9989-33cd-4989-984e-46e5b44099e5)
+
 ## 8. 마무리 및 참고자료
 Matplotlib은 매우 강력한 시각화 라이브러리로, 다양한 그래프와 커스터마이징 기능을 제공합니다.
 처음엔 기본 예제를 따라해보고, 점차 여러 기능을 익혀나가면 데이터 분석에 큰 도움이 됩니다.
