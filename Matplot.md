@@ -60,6 +60,8 @@ x = np.random.normal(170, 10, 250)
 plt.hist(x) # 히스토그램 생성
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/7e487421-f7a9-4b99-9932-6fce8830b124)
+
 ### 산점도(Scatter Plot)
 ```
 x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])
@@ -68,6 +70,8 @@ y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])
 plt.scatter(x, y)
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/e6c4bd54-a682-4e02-8248-5e1112b60614)
+
 ### 파이차트(Pie Chart)
 ```
 y = np.array([35, 25, 25, 15])
@@ -75,6 +79,7 @@ y = np.array([35, 25, 25, 15])
 plt.pie(y) # 원형 차트 생성
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/5b7f64cf-dbeb-4eeb-9c91-5cd8d0d90a24)
 
 ## 5. 그래프 커스터 마이징
 그래프의 선 색깔, 스타일, 마커, 범례 등을 지정할 수 있습니다.
