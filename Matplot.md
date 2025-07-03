@@ -31,14 +31,12 @@ Matplotlib을 사용하려면 `matplotlib.pyplot` 모듈을 불러와야 합니�
 아래 예제는 기본 선 그래프를 그리는 방법입니다.
 ```
 import matplotlib.pyplot as plt
+import numpy as np
 
-x = [1, 2, 3, 4]
-y = [10, 20, 25, 30]
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
 
-plt.plot(x, y)
-plt.title("기본 선 그래프")
-plt.xlabel("X축")
-plt.ylabel("Y축")
+plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
