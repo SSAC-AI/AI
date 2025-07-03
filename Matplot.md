@@ -115,6 +115,7 @@ plt.plot(x,y)
 
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/c50a6a4d-80c9-41c4-8a0a-637a3acd8d5d)
 
 ## 7. 플롯 레이블 글꼴 설정
 그래프의 레이블 글꼴을 지정할 수 있습니다.
