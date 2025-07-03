@@ -91,7 +91,7 @@ plt.plot(ypoints, color = 'r')
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/d642a83d-7ee6-4097-a89e-848060b6a672)
-### 마커
+### 마커 표시 예제
 ```
 ypoints = np.array([3, 8, 1, 10])
 
@@ -99,7 +99,7 @@ plt.plot(ypoints, marker = 'o')
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/f8cec8ca-b3fa-4cb4-b4e3-c970beacabc0)
-### 범례
+### 범례 표시 예제
 ```
 y = np.array([35, 25, 25, 15])
 mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
