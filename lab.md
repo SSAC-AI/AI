@@ -47,6 +47,7 @@
 ---
 
 ## 🧰 데이터 구성 예시
+```
 /dataset/
 ├── raw/
 │ ├── scene_001_depth.png
@@ -56,7 +57,7 @@
 │ └── scene_001_corrected_depth.png
 - `raw/`: Helios 2에서 얻은 원본 데이터
 - `gt/`: PSO 기반 GMM 알고리즘 또는 수동 보정을 통해 생성한 정답 거리맵
-
+```
 ---
 
 ## 🧠 딥러닝 모델 설계
@@ -96,13 +97,13 @@
 ---
 
 ## 📂 관련 파일
-```
+
 | 파일 | 설명 |
 |------|------|
 | `model.py` | 딥러닝 보정 네트워크 구조 |
 | `train.py` | 학습 루프 |
 | `data_loader.py` | 실측 이미지 데이터셋 로딩 |
 | `eval_tools.py` | checkerboard 평탄도 평가 도구 |
-```
+
 
 ---
