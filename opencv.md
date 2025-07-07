@@ -69,3 +69,5 @@ cv2.imshow('Gray', gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+## 실습
+[open cv](https://github.com/SSAC-AI/AI/blob/main/opencv_basic_%EA%B7%B8%EB%A6%BC%EA%B7%B8%EB%A6%AC%EA%B8%B0.ipynb)
