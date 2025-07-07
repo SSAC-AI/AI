@@ -31,9 +31,9 @@ pip install opencv-python-headless
 ### 📦 자주 사용하는 라이브러리
 | 라이브러리           | 설명                                           | 설치 펀드 |
 | --------------- | -------------------------------------------- |-----------------------|
-| `opencv-python` | OpenCV의 핵심 기능 사용 (이미지/영상 처리 등)               |'pip install opencv-python'|
-| `numpy`         | 이미지의 배열/행렬 연산 처리 (OpenCV는 내부적으로 numpy 배열 사용) |'pip install numpy'|
-| `matplotlib`    | 이미지 시각화에 사용 (선택사항)                           |'pip install matplotlib'|
+| `opencv-python` | OpenCV의 핵심 기능 사용 (이미지/영상 처리 등)               |`pip install opencv-python`|
+| `numpy`         | 이미지의 배열/행렬 연산 처리 (OpenCV는 내부적으로 numpy 배열 사용) |`pip install numpy`|
+| `matplotlib`    | 이미지 시각화에 사용 (선택사항)                           |`pip install matplotlib`|
 
 ### 🧠 기본 용어 정리
 | 용어                           | 설명                                                            |
