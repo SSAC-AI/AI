@@ -160,7 +160,7 @@ GitHub에서는 `README.md` 파일을 통해 마크다운을 많이 사용합니
 - [Ultralytics_Basic](./Ultralytics_basic.md)
 - [YOLOv8](https://github.com/SSAC-AI/YOLO/blob/main/v8.md)
 - [YOLOv11](https://github.com/SSAC-AI/YOLO/blob/main/v11.md)
-- [YOLOv12]()
+- [YOLOv12](https://github.com/SSAC-AI/YOLO/blob/main/v12.md)
   
 ## 8. TensorRT vs PyTorch 
 - [PyTorch_Basic](./PyTorch_basic.md)
